@@ -10,9 +10,15 @@
 
 @class RACSignal;
 
+@protocol RVMViewModelReacting;
+
 // Implements behaviors that drive the UI, and/or adapts a domain model to be
 // user-presentable.
-@interface RVMViewModel : NSObject
+@interface RVMViewModel : NSObject <RVMViewModelReacting>
+
+@end
+
+@protocol RVMViewModelReacting <NSObject>
 
 // Whether the view model is currently "active."
 //
