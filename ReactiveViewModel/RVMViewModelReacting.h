@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class RACSignal;
+
 @protocol RVMViewModelReacting <NSObject>
 
 // Whether the view model is currently "active."

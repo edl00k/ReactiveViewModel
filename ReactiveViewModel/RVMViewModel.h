@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "RVMViewModelReacting.h"
 
-@class RACSignal;
-
 // Implements behaviors that drive the UI, and/or adapts a domain model to be
 // user-presentable.
 @interface RVMViewModel : NSObject <RVMViewModelReacting>
